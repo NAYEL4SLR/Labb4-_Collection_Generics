@@ -15,9 +15,10 @@
         }
         public override string ToString()
         {
-            return $"\n\tID: {ID}\n\tFull name: {Name}" +
-                $"\n\tGender: {Gender}\n\tSalary: {Salary}\n" +
-                $"___________________________________________________________";
+            return $"    ID: {ID} -- Full name: {Name}" +
+                $" -- Gender: {Gender} -- Salary: {Salary}\n" +
+                $"---------------------------------------------------------" +
+                $"----------------------------------------------";
         }
     }
 }
