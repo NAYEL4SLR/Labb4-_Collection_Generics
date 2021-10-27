@@ -92,7 +92,8 @@ namespace Labb4__Collection_Generics
         }
         static void CheckIfContains(List<Employee> list, string ID_Num)
         {
-            if (list.Contains(list.Find(e => e.ReturnID() == "0002")))    //Applying list.Contains()
+            //Applying list.Contains()
+            if (list.Contains(list.Find(e => e.ReturnID() == "0002")))    
             {
                 Console.WriteLine($"\tThe Employee with the number: {ID_Num}" +
                     $" was found in the list in\n\n" +
