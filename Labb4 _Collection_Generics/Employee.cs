@@ -13,12 +13,21 @@
             Gender = gender;
             Salary = salary;
         }
+        public string ReturnID()
+        {
+            return ID;
+        }
+        public string ReturnGender()
+        {
+            return Gender;
+        }
+
         public override string ToString()
         {
             return $"    ID: {ID} -- Full name: {Name}" +
                 $" -- Gender: {Gender} -- Salary: {Salary}\n" +
                 $"---------------------------------------------------------" +
-                $"----------------------------------------------";
+                $"----------------------";
         }
     }
 }
