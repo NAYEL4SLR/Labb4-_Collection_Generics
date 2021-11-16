@@ -9,7 +9,7 @@ namespace Labb4__Collection_Generics
         static void Main(string[] args)
         {   // Part 1
 
-            Console.SetWindowSize(85, 85);
+            Console.SetWindowSize(80, Console.LargestWindowHeight);
             Stack stack = new Stack();
             AddToStack(stack);
             PrintOutStackItems(stack);
